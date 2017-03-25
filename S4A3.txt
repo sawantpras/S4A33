@@ -1,0 +1,10 @@
+Correct answer is
+
+f. It is not possible to invoke test() method defined in C from a method in A.
+
+here in all classes method name is same test(). Each class (A,B,C) override method test(). so it is not possible to invoke test() method.
+
+
+
+if test () method prototype is different in all classes it is accessed by using super.test();
+because class A have all the inherited properties of parent class 
